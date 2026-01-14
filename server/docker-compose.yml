@@ -1,0 +1,36 @@
+services:
+  paper:
+    image: itzg/minecraft-server
+    container_name: mc-paper
+    environment:
+      EULA: "TRUE"
+      TYPE: "PAPER"
+      VERSION: "1.21.1"
+      MEMORY: "2G"
+      ONLINE_MODE: "FALSE"
+    volumes:
+      - ./paper:/data
+    networks:
+      - mcnet
+
+  proxy:
+    image: itzg/bungeecord
+    container_name: mc-proxy
+    depends_on:
+      - paper
+    environment:
+      EULA: "TRUE"
+      TYPE: "WATERFALL"
+      VERSION: "latest"
+      MEMORY: "1G"
+    ports:
+      - "25565:25577"
+    volumes:
+      - ./proxy:/server
+    networks:
+      - mcnet
+
+networks:
+  mcnet:
+    driver: bridge
+
