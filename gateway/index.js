@@ -1,7 +1,11 @@
 const http = require("http");
 const WebSocket = require("ws");
+const { pingServer } = require("./mcStatus");
 
 const PORT = process.env.PORT || 8080;
+const MC_HOST = process.env.MC_HOST || "127.0.0.1";
+const MC_PORT = Number(process.env.MC_PORT || 25565);
+
 
 // HTTP server (útil para health check)
 const server = http.createServer((req, res) => {
@@ -32,7 +36,16 @@ wss.on("connection", (ws, req) => {
       ws.send("pong");
       return;
     }
+    if (text === "status") {
+    console.log("[WS] status requested");
 
+    pingServer({ host: MC_HOST, port: MC_PORT })
+    .then((info) => ws.send(JSON.stringify({ type: "status", info })))
+    .catch((err) =>
+      ws.send(JSON.stringify({ type: "error", message: err.message }))
+    );
+  return;
+}
     // si manda JSON
     try {
       const payload = JSON.parse(text);

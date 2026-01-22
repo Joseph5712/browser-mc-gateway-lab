@@ -12,6 +12,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "minecraft-protocol": "^1.62.0",
     "ws": "^8.19.0"
   },
   "devDependencies": {
