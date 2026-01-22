@@ -1,0 +1,81 @@
+[21:23:16] [main/INFO]: Using mbed TLS based native cipher.
+[21:23:16] [main/INFO]: Using zlib based native compressor.
+[21:23:16] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.21-R0.4-SNAPSHOT:5a209ae:600
+[21:23:16] [main/WARN]: Waterfall has reached end of life and is no longer maintained. We recommend you transition to Velocity (https://papermc.io/software/velocity). For more information, see the announcement (https://forums.papermc.io/threads/1088/).
+[21:23:17] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[21:23:17] [main/INFO]: Epoll is working, utilising it!
+[21:23:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+[21:23:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+[21:23:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+[21:23:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+[21:23:17] [main/INFO]: Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+[21:23:17] [main/INFO]: Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+[21:23:18] [main/INFO]: Loaded plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Loaded plugin cmd_find version git:cmd_find:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Loaded plugin cmd_server version git:cmd_server:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Loaded plugin cmd_alert version git:cmd_alert:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Loaded plugin cmd_send version git:cmd_send:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Loaded plugin cmd_list version git:cmd_list:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/WARN]: Forced host server pvp is not defined
+[21:23:18] [main/INFO]: Enabled plugin reconnect_yaml version git:reconnect_yaml:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Enabled plugin cmd_find version git:cmd_find:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Enabled plugin cmd_server version git:cmd_server:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Enabled plugin cmd_alert version git:cmd_alert:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Enabled plugin cmd_send version git:cmd_send:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [main/INFO]: Enabled plugin cmd_list version git:cmd_list:1.21-R0.4-SNAPSHOT:5a209ae:600 by WaterfallMC
+[21:23:18] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:25577
+[21:23:46] [Netty Worker IO Thread #0/WARN]: Event ConnectionInitEvent(remoteAddress=/[0:0:0:0:0:0:0:1]:40446, listener=ListenerInfo(socketAddress=/0.0.0.0:25577, motd=Proxy, maxPlayers=10, tabListSize=60, serverPriority=[lobby], forceDefault=true, forcedHosts={pvp.md-5.net=>pvp}, tabListType=GLOBAL_PING, setLocalAddress=true, pingPassthrough=false, queryPort=25577, queryEnabled=false, proxyProtocol=false), isCancelled=false) took 504ms to process!
+[21:23:46] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1]:40446] <-> InitialHandler has pinged
+[21:23:47] [Netty Worker IO Thread #0/WARN]: Event ProxyPingEvent(connection=[/[0:0:0:0:0:0:0:1]:40446] <-> InitialHandler, response=ServerPing(version=ServerPing.Protocol(name=Waterfall 1.8.x, 1.9.x, 1.10.x, 1.11.x, 1.12.x, 1.13.x, 1.14.x, 1.15.x, 1.16.x, 1.17.x, 1.18.x, 1.19.x, 1.20.x, 1.21.x, protocol=772), players=ServerPing.Players(max=10, online=0, sample=null), description=Lobby, modinfo=ServerPing.ModInfo(type=FML, modList=[]))) took 529ms to process!
+[21:24:24] [Netty Worker IO Thread #1/WARN]: Event ConnectionInitEvent(remoteAddress=/[0:0:0:0:0:0:0:1]:58854, listener=ListenerInfo(socketAddress=/0.0.0.0:25577, motd=Proxy, maxPlayers=10, tabListSize=60, serverPriority=[lobby], forceDefault=true, forcedHosts={pvp.md-5.net=>pvp}, tabListType=GLOBAL_PING, setLocalAddress=true, pingPassthrough=false, queryPort=25577, queryEnabled=false, proxyProtocol=false), isCancelled=false) took 350ms to process!
+[21:24:25] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1]:58854] <-> InitialHandler has pinged
+[21:24:58] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1]:56736] <-> InitialHandler has pinged
+[21:25:31] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1]:59358] <-> InitialHandler has pinged
+[21:26:04] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1]:51826] <-> InitialHandler has pinged
+[21:26:36] [Netty Worker IO Thread #5/INFO]: [/[0:0:0:0:0:0:0:1]:35688] <-> InitialHandler has pinged
+[21:27:10] [Netty Worker IO Thread #6/INFO]: [/[0:0:0:0:0:0:0:1]:45976] <-> InitialHandler has pinged
+[21:27:42] [Netty Worker IO Thread #7/INFO]: [/[0:0:0:0:0:0:0:1]:51848] <-> InitialHandler has pinged
+[21:28:15] [Netty Worker IO Thread #8/INFO]: [/[0:0:0:0:0:0:0:1]:53354] <-> InitialHandler has pinged
+[21:28:47] [Netty Worker IO Thread #9/INFO]: [/[0:0:0:0:0:0:0:1]:48336] <-> InitialHandler has pinged
+[21:29:20] [Netty Worker IO Thread #10/INFO]: [/[0:0:0:0:0:0:0:1]:35214] <-> InitialHandler has pinged
+[21:29:53] [Netty Worker IO Thread #11/INFO]: [/[0:0:0:0:0:0:0:1]:40180] <-> InitialHandler has pinged
+[21:30:25] [Netty Worker IO Thread #12/INFO]: [/[0:0:0:0:0:0:0:1]:47388] <-> InitialHandler has pinged
+[21:30:56] [Netty Worker IO Thread #13/INFO]: [/[0:0:0:0:0:0:0:1]:60042] <-> InitialHandler has pinged
+[21:31:28] [Netty Worker IO Thread #14/INFO]: [/[0:0:0:0:0:0:0:1]:52284] <-> InitialHandler has pinged
+[21:32:01] [Netty Worker IO Thread #15/INFO]: [/[0:0:0:0:0:0:0:1]:39362] <-> InitialHandler has pinged
+[21:32:19] [Netty Worker IO Thread #17/INFO]: [/172.18.0.1:33308] <-> InitialHandler has pinged
+[21:32:19] [Netty Worker IO Thread #16/INFO]: [/172.18.0.1:33306] <-> InitialHandler has connected
+[21:32:20] [Netty Worker IO Thread #16/WARN]: Event LoginEvent(cancelled=false, reason=null, loginResult=null, connection=[/172.18.0.1:33306|status-ping] <-> InitialHandler) took 680ms to process!
+[21:32:20] [Netty Worker IO Thread #16/WARN]: Event PreLoginEvent(cancelled=false, reason=null, connection=[/172.18.0.1:33306|status-ping] <-> InitialHandler) took 824ms to process!
+[21:32:20] [Netty Worker IO Thread #16/INFO]: [status-ping|/172.18.0.1:33306] <-> ServerConnector [lobby] has connected
+[21:32:22] [Netty Worker IO Thread #16/INFO]: [status-ping] disconnected with: Kicked whilst connecting to lobby: Outdated server! I'm still on 1.21.1
+[21:32:22] [Netty Worker IO Thread #16/INFO]: [/172.18.0.1:33306|status-ping] -> UpstreamBridge has disconnected
+[21:32:22] [Netty Worker IO Thread #16/INFO]: [status-ping|/172.18.0.1:33306] <-> ServerConnector [lobby] has disconnected
+[21:32:33] [Netty Worker IO Thread #18/INFO]: [/[0:0:0:0:0:0:0:1]:38964] <-> InitialHandler has pinged
+[21:33:06] [Netty Worker IO Thread #19/INFO]: [/[0:0:0:0:0:0:0:1]:56404] <-> InitialHandler has pinged
+[21:33:39] [Netty Worker IO Thread #20/INFO]: [/[0:0:0:0:0:0:0:1]:49922] <-> InitialHandler has pinged
+[21:34:12] [Netty Worker IO Thread #21/INFO]: [/[0:0:0:0:0:0:0:1]:45922] <-> InitialHandler has pinged
+[21:34:34] [Netty Worker IO Thread #23/INFO]: [/172.18.0.1:40432] <-> InitialHandler has pinged
+[21:34:34] [Netty Worker IO Thread #22/INFO]: [/172.18.0.1:40434] <-> InitialHandler has connected
+[21:34:34] [Netty Worker IO Thread #22/INFO]: [status-ping|/172.18.0.1:40434] <-> ServerConnector [lobby] has connected
+[21:34:35] [Netty Worker IO Thread #22/INFO]: [status-ping] disconnected with: Kicked whilst connecting to lobby: Outdated server! I'm still on 1.21.1
+[21:34:35] [Netty Worker IO Thread #22/INFO]: [/172.18.0.1:40434|status-ping] -> UpstreamBridge has disconnected
+[21:34:35] [Netty Worker IO Thread #22/INFO]: [status-ping|/172.18.0.1:40434] <-> ServerConnector [lobby] has disconnected
+[21:34:44] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1]:53476] <-> InitialHandler has pinged
+[21:35:17] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1]:56466] <-> InitialHandler has pinged
+[21:35:49] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1]:33580] <-> InitialHandler has pinged
+[21:36:21] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1]:38376] <-> InitialHandler has pinged
+[21:36:55] [Netty Worker IO Thread #4/INFO]: [/[0:0:0:0:0:0:0:1]:40378] <-> InitialHandler has pinged
+[21:37:29] [Netty Worker IO Thread #5/INFO]: [/[0:0:0:0:0:0:0:1]:34058] <-> InitialHandler has pinged
+[21:37:44] [Netty Worker IO Thread #6/INFO]: [/172.18.0.1:60888] <-> InitialHandler has pinged
+[21:37:53] [Netty Worker IO Thread #7/INFO]: [/172.18.0.1:33126] <-> InitialHandler has connected
+[21:37:54] [Netty Worker IO Thread #7/INFO]: [Joseph5712|/172.18.0.1:33126] <-> ServerConnector [lobby] has connected
+[21:38:03] [Netty Worker IO Thread #8/INFO]: [/[0:0:0:0:0:0:0:1]:36580] <-> InitialHandler has pinged
+[21:38:41] [Netty Worker IO Thread #9/INFO]: [/[0:0:0:0:0:0:0:1]:58490] <-> InitialHandler has pinged
+[21:39:20] [Netty Worker IO Thread #10/INFO]: [/[0:0:0:0:0:0:0:1]:51628] <-> InitialHandler has pinged
+[21:39:29] [Netty Worker IO Thread #7/INFO]: [/172.18.0.1:33126|Joseph5712] -> UpstreamBridge has disconnected
+[21:39:29] [Netty Worker IO Thread #7/INFO]: [/172.18.0.1:33126|Joseph5712] <-> DownstreamBridge <-> [lobby] has disconnected
+[21:39:33] [Netty Worker IO Thread #11/INFO]: [/172.18.0.1:34960] <-> InitialHandler has pinged
+[21:39:55] [Netty Worker IO Thread #12/INFO]: [/[0:0:0:0:0:0:0:1]:36582] <-> InitialHandler has pinged
+[21:40:27] [Netty Worker IO Thread #13/INFO]: [/[0:0:0:0:0:0:0:1]:60288] <-> InitialHandler has pinged
+[21:41:00] [Netty Worker IO Thread #14/INFO]: [/[0:0:0:0:0:0:0:1]:59382] <-> InitialHandler has pinged
